@@ -6,8 +6,8 @@ import { Phone } from "lucide-react";
 
 const contactPage = () => {
   return (
-    // PROJECT PAGE
-    <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
+    // CONTACT PAGE
+    <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden pt-5 sm:pt-10">
       <Badge variant="secondary" className="gap-1.5 py-1 ">
         <Phone className="h-4 w-4" />
         Contact Us

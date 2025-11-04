@@ -5,15 +5,14 @@ import GithubBtn from "@/components/animation/GithubBtn";
 import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
 import FramerWrapper from "@/components/animation/FramerWrapper";
 
-
 export default function Home() {
   return (
     <>
-      {/* LEFT SIDE  */}
+      {/* LEFT SIDE */}
       <FramerWrapper
-        className=" h-full w-auto flex flex-col justify-start gap-4"
+        className="h-full w-auto flex flex-col justify-start gap-4 pt-5 sm:pt-12"
         y={0}
-        x={-100}
+        x={-200}
       >
         <HeroTexts />
         <div className="h-fit w-full p-4 flex gap-4">
@@ -21,17 +20,17 @@ export default function Home() {
         </div>
         <DownLoadResumeBtn />
       </FramerWrapper>
-      {/* RIGHT SIDE image  */}
+
+      {/* RIGHT SIDE image */}
       <FramerWrapper
-        className="h-full w-[47%] relative block   max-lg:hidden"
+        className="h-full w-[40%] relative block max-lg:hidden"
         y={0}
-        x={100}
+        x={200}
       >
-        {/* IMAGE  */}
         <HeroImage />
       </FramerWrapper>
 
-      {/* GITHUB BUTTON  */}
+      {/* GITHUB BUTTON */}
       <GithubBtn />
     </>
   );

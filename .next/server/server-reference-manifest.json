@@ -1,0 +1,17 @@
+{
+  "node": {
+    "406079f58c01095a6a7c4ddc035d7007eb79dc9033": {
+      "workers": {
+        "app/contact/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cabdou%5C%5CPortfolio%5C%5Csrc%5C%5Ccomponents%5C%5CContactForm.tsx%22%2C%5B%5B%22406079f58c01095a6a7c4ddc035d7007eb79dc9033%22%2C%22%24%24RSC_SERVER_ACTION_0%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/contact/page": "rsc"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "71oJS8WnWfemYQZ/ECGBmSiSAkykLBO33fhQ51colSc="
+}

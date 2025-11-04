@@ -1,7 +1,6 @@
 "use client"
 import { cn } from "@/lib/utils";
 
-
 import {
   Briefcase,
   FolderGit2,
@@ -9,8 +8,7 @@ import {
   HomeIcon,
   LightbulbIcon,
   Mail,
-  MoreHorizontal,
- 
+  Award,
   User,
 } from 'lucide-react';
 
@@ -59,20 +57,19 @@ const Navbar = () => {
       ),
       href: '/projects',
     },
-   
+    {
+      title: 'Certifications',
+      icon: (
+        <Award className='h-full w-full ' />
+      ),
+      href: '/more',
+    },
     {
       title: 'Contact us',
       icon: (
         <Mail className='h-full w-full ' />
       ),
       href: '/contact',
-    },
-    {
-      title: 'More',
-      icon: (
-        <MoreHorizontal className='h-full w-full ' />
-      ),
-      href: '/more',
     },
   ];
   const [scrolling, setScrolling] = useState(false);

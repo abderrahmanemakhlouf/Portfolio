@@ -7,15 +7,15 @@ import FramerWrapper from "@/components/animation/FramerWrapper";
 
 export default function Home() {
   return (
-    <>
+    <main className="min-h-screen w-full flex flex-col lg:flex-row items-center justify-between overflow-x-hidden">
       {/* LEFT SIDE */}
       <FramerWrapper
-        className="h-full w-auto flex flex-col justify-start gap-4 pt-5 sm:pt-12"
+        className="flex flex-col justify-start gap-4 pt-5 sm:pt-12 px-4 lg:px-8 w-full lg:w-1/2"
         y={0}
         x={-200}
       >
         <HeroTexts />
-        <div className="h-fit w-full p-4 flex gap-4">
+        <div className="w-full flex gap-4">
           <SocialLinks />
         </div>
         <DownLoadResumeBtn />
@@ -23,7 +23,7 @@ export default function Home() {
 
       {/* RIGHT SIDE image */}
       <FramerWrapper
-        className="h-full w-[40%] relative block max-lg:hidden"
+        className="relative w-full lg:w-[40%] max-lg:mt-10"
         y={0}
         x={200}
       >
@@ -32,6 +32,6 @@ export default function Home() {
 
       {/* GITHUB BUTTON */}
       <GithubBtn />
-    </>
+    </main>
   );
 }

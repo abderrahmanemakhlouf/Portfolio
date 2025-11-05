@@ -10,6 +10,7 @@ const poppins = Poppins({
   weight: "400",
   variable: "--font-poppins",
 });
+
 const rubik = Rubik({
   subsets: ["latin"],
   weight: "600",
@@ -23,12 +24,9 @@ export const metadata: Metadata = {
     template: `%s - ${portfolioConfig.title}`,
   },
   description: portfolioConfig.description,
-
-  // added new keywords for seo
   keywords: portfolioConfig.seo.keywords,
   authors: portfolioConfig.seo.authors,
   creator: portfolioConfig.name,
-
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -57,14 +55,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} ${rubik.variable}`}>
-        <main
-  className="flex relative break-words h-dvh min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 bg-white text-black max-sm:pt-20"
->
-  <Navbar />
-  {children}
-</main>
+      <body
+        className={cn(
+          `${poppins.variable} ${rubik.variable} bg-white text-black`
+        )}
+      >
+        {/* Navbar ثابت في الأعلى */}
+        <Navbar />
 
+        {/* محتوى الصفحات */}
+        <main
+          className="relative break-words min-h-screen w-full pt-20 pb-4 px-40 max-md:px-6 overflow-y-auto flex flex-col items-center justify-start"
+        >
+          {children}
+        </main>
       </body>
     </html>
   );

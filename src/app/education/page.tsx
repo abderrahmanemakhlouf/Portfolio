@@ -7,13 +7,14 @@ import { portfolioConfig } from "@/config/portfolio.config";
 const educationPage = () => {
   return (
     // EDUCATION PAGE
-    <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden pt-5 sm:pt-10">
+    <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden pt-5 sm:pt-20">
       <Badge variant="secondary" className="gap-1.5 py-1 ">
         <Briefcase className="h-4 w-4" />
         Education
       </Badge>
       <div className="flex flex-col gap-3">
-        <Heading>My Education</Heading>
+        <Heading className="text-3xl max-sm:text-1xl">My Education</Heading>
+
       </div>
       <div className="w-full h-fit flex flex-col">
         {portfolioConfig.education.map((edu, index) => (

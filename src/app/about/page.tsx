@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect } from "react";
 import Aboutfooter from "@/components/Aboutfooter";
 import FramerWrapper from "@/components/animation/FramerWrapper";
 import Heading from "@/components/Heading";
@@ -5,19 +8,24 @@ import { Badge } from "@/components/ui/badge";
 import { Circle, Heart, User2 } from "lucide-react";
 import { portfolioConfig } from "@/config/portfolio.config";
 
-const page = () => {
+const Page = () => {
   const items = portfolioConfig.about.hobbies.map((hobby) => ({ hobby }));
+
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     // ABOUT PAGE
-    <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden pt-5 sm:pt-12">
+    <div className="min-h-screen w-full relative flex flex-col items-start gap-5 overflow-y-auto pt-5 sm:pt-20">
       <Badge variant="secondary" className="gap-1.5 py-1 ">
         <User2 className="h-4 w-4" />
         About me
       </Badge>
       <div className="flex flex-col gap-5">
-        <Heading>
-          {portfolioConfig.title} And Future  <br /> IT Specialist, Based In{" "}
+        <Heading className="text-3xl max-sm:text-4xl">
+          {portfolioConfig.title} And Future <br /> IT Specialist, Based In{" "}
           {portfolioConfig.about.personalInfo.nationality}.
         </Heading>
 
@@ -56,4 +64,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

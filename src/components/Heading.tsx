@@ -2,7 +2,7 @@ import React from "react";
 
 type HeadingProps = {
   children: React.ReactNode;
-  className?: string; // ✅ أضف هذا السطر
+  className?: string; 
 };
 
 export default function Heading({ children, className }: HeadingProps) {

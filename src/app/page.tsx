@@ -23,7 +23,7 @@ export default function Home() {
 
       {/* RIGHT SIDE image */}
       <FramerWrapper
-        className="relative w-full lg:w-[40%] max-lg:mt-10"
+        className="relative w-full lg:w-[42%] max-lg:mt-10"
         y={0}
         x={200}
       >

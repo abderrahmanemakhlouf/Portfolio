@@ -65,7 +65,7 @@ export default function RootLayout({
 
         {/* محتوى الصفحات */}
         <main
-          className="relative break-words min-h-screen w-full pt-20 pb-4 px-40 max-md:px-6 overflow-y-auto flex flex-col items-center justify-start"
+          className="relative break-words min-h-screen w-full pt-10 pb-4 px-40 max-md:px-6 overflow-y-auto flex flex-col items-center justify-start"
         >
           {children}
         </main>

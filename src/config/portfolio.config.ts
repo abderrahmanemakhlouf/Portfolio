@@ -85,12 +85,13 @@ export const portfolioConfig = {
   // Skills and Roles
   skills: {
     roles: [
-      "Freelancer",
-      "Blogger",
-      "Gamer",
-      "Creator",
-      "Student",
-      "Contributer",
+      "CS Enthusiast ",
+      "Tech Explorer",
+      "Tech Blogger",
+      "Problem Solver",
+      "Self-Learner",
+      "Tech Enthusiast",
+
     ],
     // Technical Skills
     programmingLanguages: [

@@ -56,7 +56,7 @@ const certifications = [
 
 const MorePage = () => {
   return (
-    <div className="relative flex flex-col items-start gap-6 w-full h-full overflow-hidden bg-gradient-to-b from-white via-gray-50 to-gray-100 p-6 pt-5 sm:pt-12 rounded-3xl">
+    <div className="relative flex flex-col items-start gap-6 w-full h-full overflow-hidden bg-gradient-to-b from-white via-gray-50 to-gray-100 p-6 pt-5 sm:pt-20 rounded-3xl">
       {/* Header */}
       <Badge variant="secondary" className="gap-1.5 py-1">
         <Award className="h-4 w-4" />
@@ -64,11 +64,15 @@ const MorePage = () => {
       </Badge>
 
       <div className="flex flex-col gap-2">
-        <Heading>Technical Certifications</Heading>
-        <p className="text-gray-600 text-base leading-relaxed">
-          Verified certifications earned from global technology leaders.
-        </p>
-      </div>
+  <Heading className="text-3xl max-sm:text-2xl">
+    Technical Certifications
+  </Heading>
+  <p className="text-gray-600 text-base leading-relaxed">
+    Verified certifications earned from global technology leaders.
+  </p>
+</div>
+
+
 
       {/* Cards Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 w-full auto-rows-fr">

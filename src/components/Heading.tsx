@@ -1,14 +1,14 @@
-import FramerWrapper from "./animation/FramerWrapper";
+import React from "react";
 
-const Heading = ({ children }: { children: React.ReactNode }) => {
-  // CUSTOM HEADING FOR ALL PAGE
-  return (
-    <FramerWrapper y={0} x={-100}>
-      <h1 className="font-poppins text-primary font-bold text-4xl name_underline max-sm:text-2xl">
-        {children}
-      </h1>
-    </FramerWrapper>
-  );
+type HeadingProps = {
+  children: React.ReactNode;
+  className?: string; // ✅ أضف هذا السطر
 };
 
-export default Heading;
+export default function Heading({ children, className }: HeadingProps) {
+  return (
+    <h2 className={`text-3xl font-bold ${className || ""}`}>
+      {children}
+    </h2>
+  );
+}

@@ -8,19 +8,27 @@ export const SendEmail = async (formdata: FormData) => {
     return { error: "Invalid form data" };
   }
 
-  // استبدل هذا الرابط بخدمة مثل Formspree أو Web3Forms
-  const response = await fetch("https://formspree.io/f/YOUR_FORM_ID", {
+  // 🔑 ضع هنا مفتاح Web3Forms الخاص بك
+  const accessKey = "d7472ca3-f998-4cde-a48c-f7882fef54d2";
+
+  const response = await fetch("https://api.web3forms.com/submit", {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
     body: JSON.stringify({
+      access_key: accessKey,
       name,
       email: senderEmail,
       message,
     }),
   });
 
-  if (!response.ok) {
-    return { error: "Failed to send message" };
+  const result = await response.json();
+
+  if (!result.success) {
+    return { error: result.message || "Failed to send message" };
   }
 
   return { success: true };

@@ -32,7 +32,8 @@ const ContactForm = () => {
       setStatus("❌ Failed to send message. Please try again.");
     } else {
       setStatus("✅ Message sent successfully!");
-      e.currentTarget.reset();
+      if (e && e.currentTarget) e.currentTarget.reset();
+
     }
   };
 

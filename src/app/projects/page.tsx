@@ -18,7 +18,7 @@ import { cn } from "@/lib/utils";
 
 const ProjectsPage = () => {
   return (
-    <div className="relative flex flex-col items-start gap-6 w-full h-full overflow-hidden bg-gradient-to-b from-white via-gray-50 to-gray-100 p-6 pt-5 sm:pt-20 rounded-3xl">
+    <div className="relative flex flex-col items-start gap-5 w-full h-full overflow-hidden bg-gradient-to-b from-white via-gray-50 to-gray-100 p-6 pt-5 sm:pt-20 rounded-3xl">
       
       {/* Header */}
       <FramerWrapper y={10} scale={0.95} delay={0.0} duration={0.25}>
@@ -29,17 +29,17 @@ const ProjectsPage = () => {
       </FramerWrapper>
 
       <div className="flex flex-col gap-2">
-        <FramerWrapper y={10} scale={0.95} delay={0.05} duration={0.25}>
-          <Heading className="text-3xl max-sm:text-2xl">
-            My Projects
-          </Heading>
-        </FramerWrapper>
-        <FramerWrapper y={10} scale={0.95} delay={0.1} duration={0.25}>
+        {/* العنوان بدون أنيميشن */}
+        <Heading className="text-3xl max-sm:text-3xl">
+          My Projects
+        </Heading>
+
+        
           <p className="text-gray-600 text-base leading-relaxed">
             Explore my collection of creative and impactful projects. Each one represents 
             a unique challenge solved through innovation, dedication, and continuous learning.
           </p>
-        </FramerWrapper>
+        
       </div>
 
       {/* Projects Grid */}

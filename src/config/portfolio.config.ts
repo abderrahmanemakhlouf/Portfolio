@@ -2,8 +2,8 @@ export const portfolioConfig = {
   // Basic Information
   name: "Abderrahmane Makhlouf",
   title: "High School Graduate",
-  description: "I am a Passionate Software Developer",
-  location: "Ramgarh cantt, Jharkhand, India",
+  description: "#",
+  location: "#",
 
   // Contact Information
   email: "contact@abderrahmanemakhlouf.com", // Replace with actual email if available
@@ -19,7 +19,7 @@ export const portfolioConfig = {
 
   // SEO Information
   seo: {
-    ogImage: "https://mdtaquiimam.vercel.app/og-image.png",
+    ogImage: "#",
     url: "https://abderrahmanemakhlouf.com",
     twitterHandle: "#",
     keywords: [
@@ -71,8 +71,8 @@ export const portfolioConfig = {
     hobbies: [
       "Problem Solving",
       "Building Tech Projects",
-      "Gaming & Game Mechanics",
       "Learning Technologies",
+      "Gaming & Game Mechanics",
       "Walking",
     ],
     personalInfo: {
@@ -208,46 +208,8 @@ projects: [
 ],
 
 
-  // More Links Information
-  moreLinks: [
-    {
-      title: "Technical Support Fund - Google",
-      description:
-        "I write blogs on web development, trending tech stacks or javascript guide or tips in Dev.to ",
-      link: "https://coursera.org/verify/6AQB51OE0FOD",
-    },
-    {
-      title: "Hashnode",
-      description:
-        "I write blogs on web development, trending tech stacks or javascript guide or tips in Hashnode",
-      link: "https://mdtaquiimam.hashnode.dev/",
-    },
-    {
-      title: "Medium",
-      description:
-        "I write blogs on web development, trending tech stacks or javascript guide or tips in Medium",
-      link: "https://medium.com/@mdtaqui.jhar",
-    },
-    {
-      title: "Daily.Dev",
-      description:
-        "I am also the member of Daily Dev squads and i also upload post on some squads.",
-      link: "https://app.daily.dev/taqui_786",
-    },
-    {
-      title: "Gumroad",
-      description:
-        "I also sell digital products on gumroad like Notion Templates and web projects etc.",
-      link: "https://mdtaquijhar.gumroad.com/",
-    },
-    {
-      title: "Buy Me a coffee",
-      description:
-        "Supports my content quality, new topics, and project creation.",
-      link: "https://www.buymeacoffee.com/taquidevloper",
-    },
-  ],
-
+  
+ 
   // API Keys (should be in .env but referenced here)
   apiKeys: {
     resendApiKey: "YOUR_RESEND_API_KEY", // This should be loaded from environment variables in a real app

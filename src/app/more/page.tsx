@@ -26,7 +26,7 @@ const certifications = [
     link: "https://coursera.org/verify/6AQB51OE0FOD",
   },
   {
-    title: "The Bits and Bytes of Computer",
+    title: "The Bits and Bytes of Networking",
     issuer: "Google / Coursera",
     description:
       "Covers computer networking concepts, including protocols, network layers, IP addressing, and data transmission.",
@@ -56,7 +56,7 @@ const certifications = [
 
 const MorePage = () => {
   return (
-    <div className="relative flex flex-col items-start gap-6 w-full h-full overflow-hidden bg-gradient-to-b from-white via-gray-50 to-gray-100 p-6 pt-5 sm:pt-20 rounded-3xl">
+    <div className="relative flex flex-col items-start gap-5 w-full h-full overflow-hidden bg-gradient-to-b from-white via-gray-50 to-gray-100 p-6 pt-5 sm:pt-20 rounded-3xl">
       {/* Header */}
       <Badge variant="secondary" className="gap-1.5 py-1">
         <Award className="h-4 w-4" />

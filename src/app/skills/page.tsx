@@ -20,10 +20,7 @@ const skillPage = () => {
 
         <FramerWrapper y={0} x={200}>
           <p className="font-poppins text-xl w-full text-primary max-sm:text-lg">
-            Currently, I am a fresher with a strong foundation in IT support,
-            computer hardware, operating systems, and networking. I’m focused on
-            developing my technical problem-solving skills and gaining hands-on
-            experience with tools and systems used in real-world IT environments.
+            Currently, I have a strong foundation in IT support, computer hardware, operating systems, and networking. I’m focused on developing my technical problem-solving skills and gaining hands-on experience with tools and systems used in real-world IT environments.
           </p>
         </FramerWrapper>
 

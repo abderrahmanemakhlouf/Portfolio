@@ -16,15 +16,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/projects/page": [
+    "/about/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/projects/page.js"
-    ],
-    "/more/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/more/page.js"
+      "static/chunks/app/about/page.js"
     ],
     "/skills/page": [
       "static/chunks/webpack.js",
@@ -36,10 +31,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/education/page.js"
     ],
-    "/about/page": [
+    "/projects/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/about/page.js"
+      "static/chunks/app/projects/page.js"
+    ],
+    "/more/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/more/page.js"
     ],
     "/contact/page": [
       "static/chunks/webpack.js",

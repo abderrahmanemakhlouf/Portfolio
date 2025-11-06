@@ -13,7 +13,7 @@ const educationPage = () => {
         Education
       </Badge>
       <div className="flex flex-col gap-3">
-        <Heading className="text-3xl max-sm:text-1xl">My Education</Heading>
+        <Heading className="text-3xl max-sm:text-3xl">My Education</Heading>
 
       </div>
       <div className="w-full h-fit flex flex-col">

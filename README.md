@@ -1,28 +1,13 @@
 # 🌐 Personal Portfolio
 
-A modern and responsive **personal portfolio website** built with **Next.js**, **TailwindCSS**, and **Framer Motion**.  
+Customized a modern and responsive **personal portfolio website** built with **Next.js**, **TailwindCSS**, and **Framer Motion**.  
 It highlights my technical certifications, education, and IT projects through a clean and animated interface.
 
 ---
 
-## 🖼️ Preview
+## 🖼️ Home Page
 
-> 💡 Replace the links below with your own screenshots or portfolio images.
-
-### 🏠 Home Page
-![Home Page Screenshot](https://your-image-link-here)
-
-### 💼 Projects Section
-![Projects Section Screenshot](https://your-image-link-here)
-
-### 🎓 Education Section
-![Education Section Screenshot](https://your-image-link-here)
-
-### 🧑‍💻 Certifications Section
-![Certifications Section Screenshot](https://your-image-link-here)
-
-### ✉️ Contact Page
-![Contact Page Screenshot](https://your-image-link-here)
+![Preview](public/Home_page.png)
 
 ---
 
@@ -38,13 +23,14 @@ It highlights my technical certifications, education, and IT projects through a 
 
 ## 🛠️ Tech Stack
 
-| Category | Technologies |
-|-----------|---------------|
-| **Framework** | Next.js (App Router), React, TypeScript |
-| **Styling** | TailwindCSS |
-| **UI Components** | shadcn/ui, Lucide Icons |
-| **Animations** | Framer Motion |
-| **Deployment** | Vercel |
+| Category        | Technologies |
+|-----------------|-------------|
+| **🖥 Framework**      | Next.js (App Router), React, TypeScript |
+| **🎨 Styling**       | TailwindCSS |
+| **🧩 UI Components** | shadcn/ui, Lucide Icons |
+| **✨ Animations**    | Framer Motion |
+| **🚀 Deployment**    | Vercel |
+
 
 ---
 

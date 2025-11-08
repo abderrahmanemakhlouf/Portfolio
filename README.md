@@ -1,13 +1,9 @@
+![Preview](public/Home_page.png)
+
 # 🌐 Personal Portfolio
 
 Customized a modern and responsive **personal portfolio website** built with **Next.js**, **TailwindCSS**, and **Framer Motion**.  
 It highlights my technical certifications, education, and IT projects through a clean and animated interface.
-
----
-
-## 🖼️ Home Page
-
-![Preview](public/Home_page.png)
 
 ---
 

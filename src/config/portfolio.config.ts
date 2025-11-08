@@ -182,6 +182,8 @@ export const portfolioConfig = {
     },
   ],
 
+  
+
   // Projects Information
 projects: [
   {

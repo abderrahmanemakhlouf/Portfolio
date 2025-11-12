@@ -67,7 +67,7 @@ export const portfolioConfig = {
 
   // About Information
   about: {
-    bio: "I’m Abderrahmane Makhlouf, a motivated high school graduate passionate about technology. I hold certifications from Google, Cisco, and IBM, with a strong base in IT support, networking, and programming. I keep improving my skills through self-learning and practical projects, aiming to earn a Computer Science degree and build a professional career in IT.",
+    bio: "I’m Abderrahmane Makhlouf, a motivated high school graduate passionate about technology. I hold certifications from Google, Cisco, and IBM, with a strong base in IT support, networking, and programming. I keep improving my skills through self-learning and practical projects, aiming to earn a Information Technology degree and build a professional career in IT.",
     hobbies: [
       "Problem Solving",
       "Building Tech Projects",
@@ -85,7 +85,7 @@ export const portfolioConfig = {
   // Skills and Roles
   skills: {
     roles: [
-      "CS Enthusiast ",
+      "IT Enthusiast ",
       "Tech Explorer",
       "Tech Blogger",
       "Problem Solver",

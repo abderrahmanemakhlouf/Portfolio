@@ -174,7 +174,7 @@ export const portfolioConfig = {
   education: [
     {
       degree: "High School Diploma | Technical Mathematics",
-      institution: "El Malha El Djadida 2",
+      institution: "Ain El Malha El Djadida 02",
       location: "Algiers",
       period: "2021 - 2024",
       description:

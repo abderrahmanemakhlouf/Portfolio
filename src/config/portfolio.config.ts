@@ -178,8 +178,8 @@ export const portfolioConfig = {
       location: "Algiers",
       period: "2021 - 2024",
       description:
-        "I graduated with a score of 17.47/20, achieving 2nd place out of 300 students. My efforts were recognized with special honors from both the Principal and the Mayor. I particularly enjoyed mastering mathematics and earned additional certificates in the field.",
-    },
+        "I graduated with a score of 17.47/20, Ranked 1st in class and 2nd in the entire school. My efforts were recognized with special honors from both the Principal and the Mayor. I particularly enjoyed mastering mathematics and earned additional certificates in the field.",
+    }
   ],
 
   
